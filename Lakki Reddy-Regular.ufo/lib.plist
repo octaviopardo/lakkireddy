@@ -5,10 +5,9 @@
 	<key>com.schriftgestaltung.fontMasterID</key>
 	<string>UUID0</string>
 	<key>com.schriftgestaltung.useNiceNames</key>
-	<integer>1</integer>
+	<true/>
 	<key>public.glyphOrder</key>
 	<array>
-		<string>space</string>
 		<string>A</string>
 		<string>Aacute</string>
 		<string>Acircumflex</string>
@@ -138,60 +137,6 @@
 		<string>ordfeminine</string>
 		<string>ordmasculine</string>
 		<string>mu</string>
-		<string>uni0C05</string>
-		<string>uni0C06</string>
-		<string>uni0C07</string>
-		<string>uni0C08</string>
-		<string>uni0C09</string>
-		<string>uni0C0A</string>
-		<string>uni0C0B</string>
-		<string>uni0C60</string>
-		<string>uni0C0C</string>
-		<string>uni0C61</string>
-		<string>uni0C0E</string>
-		<string>uni0C0F</string>
-		<string>uni0C10</string>
-		<string>uni0C12</string>
-		<string>uni0C13</string>
-		<string>uni0C14</string>
-		<string>uni0C15</string>
-		<string>uni0C16</string>
-		<string>uni0C17</string>
-		<string>uni0C18</string>
-		<string>uni0C19</string>
-		<string>uni0C1A</string>
-		<string>uni0C1B</string>
-		<string>uni0C1C</string>
-		<string>uni0C1D</string>
-		<string>uni0C1E</string>
-		<string>uni0C1F</string>
-		<string>uni0C20</string>
-		<string>uni0C21</string>
-		<string>uni0C22</string>
-		<string>uni0C23</string>
-		<string>uni0C24</string>
-		<string>uni0C25</string>
-		<string>uni0C26</string>
-		<string>uni0C27</string>
-		<string>uni0C28</string>
-		<string>uni0C2A</string>
-		<string>uni0C2B</string>
-		<string>uni0C2C</string>
-		<string>uni0C2D</string>
-		<string>uni0C2E</string>
-		<string>uni0C2F</string>
-		<string>uni0C30</string>
-		<string>uni0C31</string>
-		<string>uni0C32</string>
-		<string>uni0C33</string>
-		<string>uni0C35</string>
-		<string>uni0C36</string>
-		<string>uni0C37</string>
-		<string>uni0C38</string>
-		<string>uni0C39</string>
-		<string>uni0C3D</string>
-		<string>uni0C58</string>
-		<string>uni0C59</string>
 		<string>zero</string>
 		<string>one</string>
 		<string>two</string>
@@ -209,23 +154,6 @@
 		<string>onesuperior</string>
 		<string>twosuperior</string>
 		<string>threesuperior</string>
-		<string>uni0C78</string>
-		<string>uni0C79</string>
-		<string>uni0C7A</string>
-		<string>uni0C7B</string>
-		<string>uni0C7C</string>
-		<string>uni0C7D</string>
-		<string>uni0C7E</string>
-		<string>uni0C66</string>
-		<string>uni0C67</string>
-		<string>uni0C68</string>
-		<string>uni0C69</string>
-		<string>uni0C6A</string>
-		<string>uni0C6B</string>
-		<string>uni0C6C</string>
-		<string>uni0C6D</string>
-		<string>uni0C6E</string>
-		<string>uni0C6F</string>
 		<string>asterisk</string>
 		<string>backslash</string>
 		<string>periodcentered</string>
@@ -253,9 +181,9 @@
 		<string>emdash</string>
 		<string>endash</string>
 		<string>hyphen</string>
-		<string>sfthyphen</string>
-		<string>guillemotleft</string>
-		<string>guillemotright</string>
+		<string>softhyphen</string>
+		<string>guillemetleft</string>
+		<string>guillemetright</string>
 		<string>guilsinglleft</string>
 		<string>guilsinglright</string>
 		<string>quotedblbase</string>
@@ -264,18 +192,20 @@
 		<string>quoteleft</string>
 		<string>quoteright</string>
 		<string>quotesinglbase</string>
-		<string>dandadeva</string>
-		<string>dbldandadeva</string>
-		<string>uni00A0</string>
-		<string>uni200C</string>
-		<string>uni200D</string>
+		<string>danda-deva</string>
+		<string>dbldanda-deva</string>
+		<string>space</string>
+		<string>nbspace</string>
+		<string>zerowidthjoiner</string>
+		<string>zerowidthnonjoiner</string>
 		<string>CR</string>
-		<string>Euro</string>
+		<string>.notdef</string>
 		<string>cent</string>
 		<string>currency</string>
 		<string>dollar</string>
+		<string>euro</string>
+		<string>rupeeIndian</string>
 		<string>sterling</string>
-		<string>uni20B9</string>
 		<string>yen</string>
 		<string>asciitilde</string>
 		<string>divide</string>
@@ -289,7 +219,7 @@
 		<string>perthousand</string>
 		<string>plus</string>
 		<string>plusminus</string>
-		<string>dottedcircle</string>
+		<string>dottedCircle</string>
 		<string>bar</string>
 		<string>brokenbar</string>
 		<string>at</string>
@@ -300,7 +230,6 @@
 		<string>section</string>
 		<string>degree</string>
 		<string>asciicircum</string>
-		<string>uni0C7F</string>
 		<string>acute</string>
 		<string>breve</string>
 		<string>caron</string>
@@ -314,255 +243,219 @@
 		<string>ogonek</string>
 		<string>ring</string>
 		<string>tilde</string>
-		<string>uni0C3E</string>
-		<string>uni0C3F</string>
-		<string>uni0C40</string>
-		<string>uni0C46</string>
-		<string>uni0C47</string>
-		<string>uni0C48</string>
-		<string>uni0C4A</string>
-		<string>uni0C4B</string>
-		<string>uni0C4C</string>
-		<string>uni0C4D</string>
-		<string>uni0C55</string>
-		<string>uni0C56</string>
-		<string>uni0C62</string>
-		<string>uni0C63</string>
-		<string>uni0C01</string>
-		<string>uni0C02</string>
-		<string>uni0C03</string>
-		<string>uni0C41</string>
-		<string>uni0C42</string>
-		<string>uni0C43</string>
-		<string>uni0C44</string>
-		<string>U0C15_U0C37_U0C4D_U0C2E_U0C4D</string>
-		<string>U0C15_U0C37_U0C4D_U0C2F_U0C4D</string>
-		<string>U0C15_U0C3F_U0C37_U0C4D_U0C2E_</string>
-		<string>U0C15_U0C40_U0C37_U0C4D_U0C2E</string>
-		<string>U0C15_U0C4D_U0C30_U0C4D</string>
-		<string>U0C19_U0C4D_U0C17_U0C4D</string>
-		<string>U0C1C_U0C4D_U0C2F_U0C4D</string>
-		<string>U0C1F_U0C4D_U0C32_U0C4D</string>
-		<string>U0C2A_U0C4D_U0C30_U0C4D</string>
-		<string>U0C30_U0C4D_U0C2F_U0C4D</string>
-		<string>U0C36_U0C4D_U0C56</string>
-		<string>U0C37_U0C1F_U0C4D_U0C30_U0C4D</string>
-		<string>U0C37_U0C4D_U0C1F_U0C4D</string>
-		<string>U0C37_U0C4D_U0C23_U0C4D</string>
-		<string>U0C38_U0C24_U0C30_U0C40</string>
-		<string>U0C38_U0C24_U0C4D_U0C30_U0C4D</string>
-		<string>U0C38_U0C4D_U0C28_U0C4D</string>
-		<string>U0C43_U0C</string>
-		<string>U0C44_U0C</string>
-		<string>U0C56_U0C</string>
-		<string>U0C58_0C3E</string>
-		<string>U0C59_U0C3E</string>
 		<string>ai_extended</string>
-		<string>glyph473</string>
-		<string>glyph473_U0C</string>
 		<string>glyph493</string>
 		<string>glyph494</string>
+		<string>glyph473</string>
 		<string>glyph495</string>
 		<string>glyph496</string>
-		<string>glyph497</string>
 		<string>glyph498</string>
+		<string>glyph473_U0C</string>
+		<string>glyph497</string>
 		<string>glyph499</string>
-		<string>glyph500</string>
 		<string>glyph501</string>
+		<string>glyph500</string>
 		<string>glyph502</string>
-		<string>glyph503</string>
 		<string>glyph504</string>
-		<string>glyph505</string>
-		<string>glyph506</string>
+		<string>glyph503</string>
 		<string>glyph507</string>
-		<string>glyph508</string>
+		<string>glyph505</string>
 		<string>glyph509</string>
-		<string>glyph510</string>
 		<string>glyph511</string>
+		<string>glyph508</string>
+		<string>glyph506</string>
 		<string>glyph512</string>
+		<string>glyph510</string>
 		<string>glyph513</string>
 		<string>glyph514</string>
-		<string>glyph515</string>
-		<string>glyph516</string>
 		<string>glyph517</string>
+		<string>glyph516</string>
 		<string>glyph518</string>
+		<string>glyph515</string>
 		<string>glyph519</string>
 		<string>glyph520</string>
-		<string>glyph521</string>
 		<string>glyph522</string>
+		<string>glyph521</string>
 		<string>glyph523</string>
-		<string>glyph524</string>
 		<string>glyph525</string>
+		<string>glyph524</string>
 		<string>glyph526</string>
 		<string>glyph527</string>
-		<string>glyph528</string>
 		<string>glyph529</string>
+		<string>glyph528</string>
 		<string>glyph530</string>
-		<string>glyph531</string>
-		<string>glyph536</string>
-		<string>glyph536_U0C</string>
 		<string>glyph537</string>
 		<string>glyph538</string>
-		<string>glyph665</string>
-		<string>glyph666</string>
+		<string>glyph536</string>
 		<string>glyph667</string>
+		<string>glyph666</string>
+		<string>glyph665</string>
+		<string>glyph536_U0C</string>
+		<string>glyph531</string>
 		<string>nounicode_3_1_57</string>
-		<string>uni0000</string>
 		<string>U0C15_U0C37_U0C4D.akhn</string>
-		<string>U0C15_U0C37_U0C4D.akhn_U0C2E_U0</string>
-		<string>U0C15_U0C37_U0C4D.akhn_U0C4D.ha</string>
 		<string>U0C15_U0C3E.abvs</string>
-		<string>U0C15_U0C3E_U0C37_U0C4D.akhn</string>
+		<string>U0C15_U0C37_U0C4D.akhn_U0C2E_U0</string>
+		<string>U0C15_U0C37_U0C4D_U0C2E_U0C4D</string>
 		<string>U0C15_U0C3F.abvs</string>
+		<string>U0C15_U0C37_U0C4D.akhn_U0C4D.ha</string>
+		<string>U0C15_U0C3E_U0C37_U0C4D.akhn</string>
+		<string>U0C15_U0C37_U0C4D_U0C2F_U0C4D</string>
+		<string>U0C15_U0C41.psts</string>
 		<string>U0C15_U0C3F_U0C37_U0C4D.akhn</string>
 		<string>U0C15_U0C40.abvs</string>
 		<string>U0C15_U0C40_U0C37_U0C4D.akhn</string>
-		<string>U0C15_U0C41.psts</string>
+		<string>U0C15_U0C3F_U0C37_U0C4D_U0C2E_</string>
 		<string>U0C15_U0C41_U0C37_U0C4D.akhn</string>
+		<string>U0C15_U0C40_U0C37_U0C4D_U0C2E</string>
 		<string>U0C15_U0C42.psts</string>
-		<string>U0C15_U0C42_U0C37_U0C4D.akhn</string>
 		<string>U0C15_U0C46.abvs</string>
+		<string>U0C15_U0C42_U0C37_U0C4D.akhn</string>
 		<string>U0C15_U0C46_U0C37_U0C4D.akhn</string>
-		<string>U0C15_U0C46_U0C56_U0C37_U0C4D.a</string>
 		<string>U0C15_U0C47.abvs</string>
-		<string>U0C15_U0C47_U0C37_U0C4D.akhn</string>
 		<string>U0C15_U0C4A.abvs</string>
-		<string>U0C15_U0C4A_U0C37_U0C4D.akhn</string>
+		<string>U0C15_U0C46_U0C56_U0C37_U0C4D.a</string>
+		<string>U0C15_U0C47_U0C37_U0C4D.akhn</string>
 		<string>U0C15_U0C4B.abvs</string>
-		<string>U0C15_U0C4B_U0C37_U0C4D.akhn</string>
-		<string>U0C15_U0C4C.abvs</string>
-		<string>U0C15_U0C4C_U0C37_U0C4D.akhn</string>
+		<string>U0C15_U0C4A_U0C37_U0C4D.akhn</string>
 		<string>U0C15_U0C4D.blwf</string>
+		<string>U0C15_U0C4C.abvs</string>
+		<string>U0C15_U0C4B_U0C37_U0C4D.akhn</string>
 		<string>U0C15_U0C4D.blwf_U0C37_U0C4D</string>
-		<string>U0C15_U0C4D.blwf_U0C37_U0C4D.bl</string>
+		<string>U0C15_U0C4C_U0C37_U0C4D.akhn</string>
+		<string>U0C15_U0C4D_U0C30_U0C4D</string>
 		<string>U0C15_U0C4D.blwf_U0C43</string>
+		<string>U0C15_U0C4D.blwf_U0C37_U0C4D.bl</string>
 		<string>U0C15_U0C4D.haln</string>
 		<string>U0C16_U0C3E.abvs</string>
 		<string>U0C16_U0C3F.abvs</string>
-		<string>U0C16_U0C40.abvs</string>
 		<string>U0C16_U0C41.psts</string>
-		<string>U0C16_U0C42.psts</string>
+		<string>U0C16_U0C40.abvs</string>
 		<string>U0C16_U0C46.abvs</string>
-		<string>U0C16_U0C47.abvs</string>
+		<string>U0C16_U0C42.psts</string>
 		<string>U0C16_U0C4A.abvs</string>
-		<string>U0C16_U0C4B.abvs</string>
-		<string>U0C16_U0C4C.abvs</string>
+		<string>U0C16_U0C47.abvs</string>
 		<string>U0C16_U0C4D.blwf</string>
+		<string>U0C16_U0C4B.abvs</string>
 		<string>U0C16_U0C4D.haln</string>
-		<string>U0C17_U0C3E.abvs</string>
 		<string>U0C17_U0C3F.abvs</string>
+		<string>U0C16_U0C4C.abvs</string>
+		<string>U0C17_U0C3E.abvs</string>
 		<string>U0C17_U0C40.abvs</string>
 		<string>U0C17_U0C41.psts</string>
 		<string>U0C17_U0C42.psts</string>
 		<string>U0C17_U0C46.abvs</string>
-		<string>U0C17_U0C47.abvs</string>
 		<string>U0C17_U0C4A.abvs</string>
-		<string>U0C17_U0C4B.abvs</string>
-		<string>U0C17_U0C4C.abvs</string>
 		<string>U0C17_U0C4D.blwf</string>
+		<string>U0C17_U0C47.abvs</string>
+		<string>U0C17_U0C4B.abvs</string>
 		<string>U0C17_U0C4D.haln</string>
+		<string>U0C17_U0C4C.abvs</string>
 		<string>U0C18_U0C3E.abvs</string>
-		<string>U0C18_U0C3F.abvs</string>
-		<string>U0C18_U0C40.abvs</string>
 		<string>U0C18_U0C41.psts</string>
 		<string>U0C18_U0C42.psts</string>
+		<string>U0C18_U0C3F.abvs</string>
+		<string>U0C18_U0C40.abvs</string>
 		<string>U0C18_U0C46.abvs</string>
-		<string>U0C18_U0C47.abvs</string>
 		<string>U0C18_U0C4A.abvs</string>
-		<string>U0C18_U0C4B.abvs</string>
-		<string>U0C18_U0C4C.abvs</string>
+		<string>U0C18_U0C47.abvs</string>
 		<string>U0C18_U0C4D.blwf</string>
+		<string>U0C18_U0C4B.abvs</string>
 		<string>U0C18_U0C4D.haln</string>
-		<string>U0C19_U0C3E.abvs</string>
 		<string>U0C19_U0C3F.abvs</string>
-		<string>U0C19_U0C40.abvs</string>
+		<string>U0C19_U0C3E.abvs</string>
+		<string>U0C18_U0C4C.abvs</string>
 		<string>U0C19_U0C41.psts</string>
+		<string>U0C19_U0C40.abvs</string>
 		<string>U0C19_U0C42.psts</string>
 		<string>U0C19_U0C46.abvs</string>
-		<string>U0C19_U0C47.abvs</string>
 		<string>U0C19_U0C4A.abvs</string>
-		<string>U0C19_U0C4B.abvs</string>
+		<string>U0C19_U0C47.abvs</string>
 		<string>U0C19_U0C4C.abvs</string>
 		<string>U0C19_U0C4D.blwf</string>
+		<string>U0C19_U0C4B.abvs</string>
 		<string>U0C19_U0C4D.haln</string>
-		<string>U0C1A_U0C3E.abvs</string>
 		<string>U0C1A_U0C3F.abvs</string>
-		<string>U0C1A_U0C40.abvs</string>
 		<string>U0C1A_U0C41.psts</string>
-		<string>U0C1A_U0C42.psts</string>
+		<string>U0C1A_U0C40.abvs</string>
+		<string>U0C1A_U0C3E.abvs</string>
+		<string>U0C19_U0C4D_U0C17_U0C4D</string>
 		<string>U0C1A_U0C46.abvs</string>
-		<string>U0C1A_U0C47.abvs</string>
+		<string>U0C1A_U0C42.psts</string>
 		<string>U0C1A_U0C4A.abvs</string>
+		<string>U0C1A_U0C47.abvs</string>
+		<string>U0C1A_U0C4D.blwf</string>
 		<string>U0C1A_U0C4B.abvs</string>
 		<string>U0C1A_U0C4C.abvs</string>
-		<string>U0C1A_U0C4D.blwf</string>
 		<string>U0C1A_U0C4D.haln</string>
-		<string>U0C1B_U0C3E.abvs</string>
 		<string>U0C1B_U0C3F.abvs</string>
+		<string>U0C1B_U0C3E.abvs</string>
 		<string>U0C1B_U0C40.abvs</string>
 		<string>U0C1B_U0C41.psts</string>
 		<string>U0C1B_U0C42.psts</string>
 		<string>U0C1B_U0C46.abvs</string>
-		<string>U0C1B_U0C47.abvs</string>
 		<string>U0C1B_U0C4A.abvs</string>
+		<string>U0C1B_U0C47.abvs</string>
+		<string>U0C1B_U0C4D.blwf</string>
 		<string>U0C1B_U0C4B.abvs</string>
 		<string>U0C1B_U0C4C.abvs</string>
-		<string>U0C1B_U0C4D.blwf</string>
 		<string>U0C1B_U0C4D.haln</string>
-		<string>U0C1C_U0C3E.abvs</string>
 		<string>U0C1C_U0C3F.abvs</string>
-		<string>U0C1C_U0C40.abvs</string>
+		<string>U0C1C_U0C3E.abvs</string>
 		<string>U0C1C_U0C41.psts</string>
+		<string>U0C1C_U0C40.abvs</string>
 		<string>U0C1C_U0C42.psts</string>
 		<string>U0C1C_U0C46.abvs</string>
-		<string>U0C1C_U0C47.abvs</string>
 		<string>U0C1C_U0C4A.abvs</string>
+		<string>U0C1C_U0C4D.blwf</string>
+		<string>U0C1C_U0C47.abvs</string>
 		<string>U0C1C_U0C4B.abvs</string>
 		<string>U0C1C_U0C4C.abvs</string>
-		<string>U0C1C_U0C4D.blwf</string>
 		<string>U0C1C_U0C4D.haln</string>
+		<string>U0C1C_U0C4D_U0C2F_U0C4D</string>
 		<string>U0C1D_U0C3E.abvs</string>
 		<string>U0C1D_U0C3F.abvs</string>
 		<string>U0C1D_U0C40.abvs</string>
 		<string>U0C1D_U0C41.psts</string>
-		<string>U0C1D_U0C42.psts</string>
 		<string>U0C1D_U0C46.abvs</string>
+		<string>U0C1D_U0C42.psts</string>
 		<string>U0C1D_U0C47.abvs</string>
 		<string>U0C1D_U0C4A.abvs</string>
+		<string>U0C1D_U0C4D.blwf</string>
 		<string>U0C1D_U0C4B.abvs</string>
 		<string>U0C1D_U0C4C.abvs</string>
-		<string>U0C1D_U0C4D.blwf</string>
 		<string>U0C1D_U0C4D.haln</string>
 		<string>U0C1E_U0C3E.abvs</string>
 		<string>U0C1E_U0C3F.abvs</string>
-		<string>U0C1E_U0C40.abvs</string>
 		<string>U0C1E_U0C41.psts</string>
 		<string>U0C1E_U0C42.psts</string>
+		<string>U0C1E_U0C40.abvs</string>
 		<string>U0C1E_U0C46.abvs</string>
-		<string>U0C1E_U0C47.abvs</string>
 		<string>U0C1E_U0C4A.abvs</string>
-		<string>U0C1E_U0C4B.abvs</string>
+		<string>U0C1E_U0C47.abvs</string>
 		<string>U0C1E_U0C4C.abvs</string>
+		<string>U0C1E_U0C4B.abvs</string>
 		<string>U0C1E_U0C4D.blwf</string>
-		<string>U0C1E_U0C4D.haln</string>
 		<string>U0C1F_U0C3E.abvs</string>
 		<string>U0C1F_U0C3F.abvs</string>
-		<string>U0C1F_U0C40.abvs</string>
+		<string>U0C1E_U0C4D.haln</string>
 		<string>U0C1F_U0C41.psts</string>
+		<string>U0C1F_U0C40.abvs</string>
 		<string>U0C1F_U0C42.psts</string>
 		<string>U0C1F_U0C46.abvs</string>
 		<string>U0C1F_U0C47.abvs</string>
+		<string>U0C1F_U0C4D.blwf</string>
 		<string>U0C1F_U0C4A.abvs</string>
 		<string>U0C1F_U0C4B.abvs</string>
+		<string>U0C1F_U0C4D_U0C32_U0C4D</string>
 		<string>U0C1F_U0C4C.abvs</string>
-		<string>U0C1F_U0C4D.blwf</string>
 		<string>U0C1F_U0C4D.haln</string>
 		<string>U0C20_U0C3E.abvs</string>
 		<string>U0C20_U0C3F.abvs</string>
 		<string>U0C20_U0C40.abvs</string>
 		<string>U0C20_U0C41.psts</string>
-		<string>U0C20_U0C42.psts</string>
 		<string>U0C20_U0C46.abvs</string>
+		<string>U0C20_U0C42.psts</string>
 		<string>U0C20_U0C47.abvs</string>
 		<string>U0C20_U0C4A.abvs</string>
 		<string>U0C20_U0C4B.abvs</string>
@@ -571,75 +464,75 @@
 		<string>U0C20_U0C4D.haln</string>
 		<string>U0C21_U0C3E.abvs</string>
 		<string>U0C21_U0C3F.abvs</string>
-		<string>U0C21_U0C40.abvs</string>
-		<string>U0C21_U0C41.psts</string>
-		<string>U0C21_U0C42.psts</string>
 		<string>U0C21_U0C46.abvs</string>
+		<string>U0C21_U0C41.psts</string>
+		<string>U0C21_U0C40.abvs</string>
+		<string>U0C21_U0C42.psts</string>
 		<string>U0C21_U0C47.abvs</string>
 		<string>U0C21_U0C4A.abvs</string>
 		<string>U0C21_U0C4B.abvs</string>
-		<string>U0C21_U0C4C.abvs</string>
 		<string>U0C21_U0C4D.blwf</string>
+		<string>U0C21_U0C4C.abvs</string>
 		<string>U0C21_U0C4D.haln</string>
 		<string>U0C22_U0C3E.abvs</string>
 		<string>U0C22_U0C3F.abvs</string>
-		<string>U0C22_U0C40.abvs</string>
 		<string>U0C22_U0C41.psts</string>
+		<string>U0C22_U0C40.abvs</string>
 		<string>U0C22_U0C42.psts</string>
 		<string>U0C22_U0C46.abvs</string>
-		<string>U0C22_U0C47.abvs</string>
 		<string>U0C22_U0C4A.abvs</string>
+		<string>U0C22_U0C47.abvs</string>
 		<string>U0C22_U0C4B.abvs</string>
-		<string>U0C22_U0C4C.abvs</string>
 		<string>U0C22_U0C4D.blwf</string>
+		<string>U0C22_U0C4C.abvs</string>
+		<string>U0C23_U0C3F.abvs</string>
 		<string>U0C22_U0C4D.haln</string>
 		<string>U0C23_U0C3E.abvs</string>
-		<string>U0C23_U0C3F.abvs</string>
 		<string>U0C23_U0C40.abvs</string>
 		<string>U0C23_U0C41.psts</string>
 		<string>U0C23_U0C42.psts</string>
 		<string>U0C23_U0C46.abvs</string>
-		<string>U0C23_U0C47.abvs</string>
 		<string>U0C23_U0C4A.abvs</string>
+		<string>U0C23_U0C47.abvs</string>
 		<string>U0C23_U0C4B.abvs</string>
 		<string>U0C23_U0C4C.abvs</string>
 		<string>U0C23_U0C4D.blwf</string>
-		<string>U0C23_U0C4D.haln</string>
 		<string>U0C24_U0C3E.abvs</string>
 		<string>U0C24_U0C3F.abvs</string>
+		<string>U0C23_U0C4D.haln</string>
 		<string>U0C24_U0C40.abvs</string>
 		<string>U0C24_U0C41.psts</string>
-		<string>U0C24_U0C42.psts</string>
-		<string>U0C24_U0C46.abvs</string>
-		<string>U0C24_U0C47.abvs</string>
 		<string>U0C24_U0C4A.abvs</string>
+		<string>U0C24_U0C47.abvs</string>
+		<string>U0C24_U0C46.abvs</string>
+		<string>U0C24_U0C42.psts</string>
 		<string>U0C24_U0C4B.abvs</string>
-		<string>U0C24_U0C4C.abvs</string>
 		<string>U0C24_U0C4D.blwf</string>
 		<string>U0C24_U0C4D.blwf_U0C30_U0C4D</string>
+		<string>U0C24_U0C4C.abvs</string>
 		<string>U0C24_U0C4D.blwf_U0C43</string>
 		<string>U0C24_U0C4D.haln</string>
-		<string>U0C25_U0C3E.abvs</string>
 		<string>U0C25_U0C3F.abvs</string>
-		<string>U0C25_U0C40.abvs</string>
+		<string>U0C25_U0C3E.abvs</string>
 		<string>U0C25_U0C41.psts</string>
+		<string>U0C25_U0C40.abvs</string>
 		<string>U0C25_U0C42.psts</string>
 		<string>U0C25_U0C46.abvs</string>
-		<string>U0C25_U0C47.abvs</string>
 		<string>U0C25_U0C4A.abvs</string>
+		<string>U0C25_U0C47.abvs</string>
 		<string>U0C25_U0C4B.abvs</string>
-		<string>U0C25_U0C4C.abvs</string>
 		<string>U0C25_U0C4D.blwf</string>
+		<string>U0C25_U0C4C.abvs</string>
 		<string>U0C25_U0C4D.haln</string>
 		<string>U0C26_U0C3E.abvs</string>
 		<string>U0C26_U0C3F.abvs</string>
+		<string>U0C26_U0C46.abvs</string>
 		<string>U0C26_U0C40.abvs</string>
 		<string>U0C26_U0C41.abvs</string>
-		<string>U0C26_U0C42.psts</string>
-		<string>U0C26_U0C46.abvs</string>
 		<string>U0C26_U0C47.abvs</string>
 		<string>U0C26_U0C4A.abvs</string>
 		<string>U0C26_U0C4B.abvs</string>
+		<string>U0C26_U0C42.psts</string>
 		<string>U0C26_U0C4C.abvs</string>
 		<string>U0C26_U0C4D.blwf</string>
 		<string>U0C26_U0C4D.haln</string>
@@ -651,214 +544,321 @@
 		<string>U0C27_U0C46.abvs</string>
 		<string>U0C27_U0C47.abvs</string>
 		<string>U0C27_U0C4A.abvs</string>
-		<string>U0C27_U0C4B.abvs</string>
-		<string>U0C27_U0C4C.abvs</string>
 		<string>U0C27_U0C4D.blwf</string>
-		<string>U0C27_U0C4D.haln</string>
-		<string>U0C28_U0C3E.abvs</string>
+		<string>U0C27_U0C4B.abvs</string>
 		<string>U0C28_U0C3F.abvs</string>
+		<string>U0C27_U0C4C.abvs</string>
+		<string>U0C28_U0C3E.abvs</string>
+		<string>U0C27_U0C4D.haln</string>
 		<string>U0C28_U0C40.abvs</string>
 		<string>U0C28_U0C41.psts</string>
 		<string>U0C28_U0C42.psts</string>
 		<string>U0C28_U0C46.abvs</string>
 		<string>U0C28_U0C47.abvs</string>
 		<string>U0C28_U0C4A.abvs</string>
-		<string>U0C28_U0C4B.abvs</string>
-		<string>U0C28_U0C4C.abvs</string>
-		<string>U0C28_U0C4D.blwf</string>
-		<string>U0C28_U0C4D.haln</string>
 		<string>U0C2A_U0C30_U0C4D.blwf</string>
+		<string>U0C28_U0C4C.abvs</string>
+		<string>U0C28_U0C4B.abvs</string>
+		<string>U0C28_U0C4D.blwf</string>
 		<string>U0C2A_U0C3E.abvs</string>
+		<string>U0C28_U0C4D.haln</string>
 		<string>U0C2A_U0C3F.abvs</string>
 		<string>U0C2A_U0C40.abvs</string>
-		<string>U0C2A_U0C41.psts</string>
-		<string>U0C2A_U0C42.psts</string>
 		<string>U0C2A_U0C46.abvs</string>
+		<string>U0C2A_U0C42.psts</string>
 		<string>U0C2A_U0C47.abvs</string>
+		<string>U0C2A_U0C41.psts</string>
 		<string>U0C2A_U0C4A.abvs</string>
-		<string>U0C2A_U0C4B.abvs</string>
-		<string>U0C2A_U0C4C.abvs</string>
-		<string>U0C2A_U0C4D.blwf</string>
-		<string>U0C2A_U0C4D.blwf_</string>
 		<string>U0C2A_U0C4D.blwf_U0C</string>
+		<string>U0C2A_U0C4D.blwf_</string>
+		<string>U0C2A_U0C4D.blwf</string>
+		<string>U0C2A_U0C4C.abvs</string>
+		<string>U0C2A_U0C4B.abvs</string>
 		<string>U0C2A_U0C4D.blwf_U0C43</string>
+		<string>U0C2A_U0C4D_U0C30_U0C4D</string>
 		<string>U0C2A_U0C4D.haln</string>
-		<string>U0C2B_U0C3E.abvs</string>
 		<string>U0C2B_U0C3F.abvs</string>
-		<string>U0C2B_U0C40.abvs</string>
+		<string>U0C2B_U0C3E.abvs</string>
 		<string>U0C2B_U0C41.psts</string>
+		<string>U0C2B_U0C40.abvs</string>
 		<string>U0C2B_U0C42.psts</string>
 		<string>U0C2B_U0C46.abvs</string>
-		<string>U0C2B_U0C47.abvs</string>
 		<string>U0C2B_U0C4A.abvs</string>
-		<string>U0C2B_U0C4B.abvs</string>
-		<string>U0C2B_U0C4C.abvs</string>
+		<string>U0C2B_U0C47.abvs</string>
 		<string>U0C2B_U0C4D.blwf</string>
+		<string>U0C2B_U0C4B.abvs</string>
 		<string>U0C2B_U0C4D.blwf_U0C</string>
+		<string>U0C2B_U0C4C.abvs</string>
+		<string>U0C2C_U0C3F.abvs</string>
 		<string>U0C2B_U0C4D.haln</string>
 		<string>U0C2C_U0C3E.abvs</string>
-		<string>U0C2C_U0C3F.abvs</string>
 		<string>U0C2C_U0C40.abvs</string>
 		<string>U0C2C_U0C41.psts</string>
 		<string>U0C2C_U0C42.psts</string>
-		<string>U0C2C_U0C46.abvs</string>
-		<string>U0C2C_U0C47.abvs</string>
 		<string>U0C2C_U0C4A.abvs</string>
+		<string>U0C2C_U0C47.abvs</string>
+		<string>U0C2C_U0C46.abvs</string>
+		<string>U0C2C_U0C4D.blwf</string>
 		<string>U0C2C_U0C4B.abvs</string>
 		<string>U0C2C_U0C4C.abvs</string>
-		<string>U0C2C_U0C4D.blwf</string>
 		<string>U0C2C_U0C4D.haln</string>
-		<string>U0C2D_U0C3E.abvs</string>
 		<string>U0C2D_U0C3F.abvs</string>
+		<string>U0C2D_U0C3E.abvs</string>
 		<string>U0C2D_U0C40.abvs</string>
 		<string>U0C2D_U0C41.psts</string>
-		<string>U0C2D_U0C42.psts</string>
 		<string>U0C2D_U0C46.abvs</string>
-		<string>U0C2D_U0C47.abvs</string>
+		<string>U0C2D_U0C42.psts</string>
 		<string>U0C2D_U0C4A.abvs</string>
+		<string>U0C2D_U0C47.abvs</string>
 		<string>U0C2D_U0C4B.abvs</string>
-		<string>U0C2D_U0C4C.abvs</string>
 		<string>U0C2D_U0C4D.blwf</string>
+		<string>U0C2E_U0C3F.abvs</string>
+		<string>U0C2D_U0C4C.abvs</string>
 		<string>U0C2D_U0C4D.haln</string>
 		<string>U0C2E_U0C3E.abvs</string>
-		<string>U0C2E_U0C3F.abvs</string>
-		<string>U0C2E_U0C40.abvs</string>
 		<string>U0C2E_U0C41.psts</string>
+		<string>U0C2E_U0C40.abvs</string>
 		<string>U0C2E_U0C42.psts</string>
 		<string>U0C2E_U0C46.abvs</string>
-		<string>U0C2E_U0C47.abvs</string>
+		<string>U0C2E_U0C4D.blwf</string>
 		<string>U0C2E_U0C4A.abvs</string>
 		<string>U0C2E_U0C4B.abvs</string>
+		<string>U0C2E_U0C47.abvs</string>
 		<string>U0C2E_U0C4C.abvs</string>
-		<string>U0C2E_U0C4D.blwf</string>
 		<string>U0C2E_U0C4D.haln</string>
-		<string>U0C2F_U0C3E.abvs</string>
 		<string>U0C2F_U0C3F.abvs</string>
 		<string>U0C2F_U0C40.abvs</string>
+		<string>U0C2F_U0C3E.abvs</string>
 		<string>U0C2F_U0C41.psts</string>
-		<string>U0C2F_U0C42.psts</string>
 		<string>U0C2F_U0C46.abvs</string>
-		<string>U0C2F_U0C47.abvs</string>
+		<string>U0C2F_U0C42.psts</string>
 		<string>U0C2F_U0C4A.abvs</string>
+		<string>U0C2F_U0C47.abvs</string>
+		<string>U0C2F_U0C4D.blwf</string>
 		<string>U0C2F_U0C4B.abvs</string>
 		<string>U0C2F_U0C4C.abvs</string>
-		<string>U0C2F_U0C4D.blwf</string>
 		<string>U0C2F_U0C4D.haln</string>
 		<string>U0C30_U0C3E.abvs</string>
 		<string>U0C30_U0C3F.abvs</string>
-		<string>U0C30_U0C40.abvs</string>
 		<string>U0C30_U0C41.psts</string>
-		<string>U0C30_U0C42.psts</string>
 		<string>U0C30_U0C46.abvs</string>
+		<string>U0C30_U0C40.abvs</string>
 		<string>U0C30_U0C47.abvs</string>
 		<string>U0C30_U0C4A.abvs</string>
+		<string>U0C30_U0C42.psts</string>
+		<string>U0C30_U0C4D.blwf</string>
 		<string>U0C30_U0C4B.abvs</string>
 		<string>U0C30_U0C4C.abvs</string>
-		<string>U0C30_U0C4D.blwf</string>
+		<string>U0C30_U0C4D_U0C2F_U0C4D</string>
 		<string>U0C30_U0C4D.haln</string>
-		<string>U0C31_U0C3E.abvs</string>
 		<string>U0C31_U0C3F.abvs</string>
+		<string>U0C31_U0C3E.abvs</string>
 		<string>U0C31_U0C40.abvs</string>
 		<string>U0C31_U0C41.psts</string>
-		<string>U0C31_U0C42.psts</string>
 		<string>U0C31_U0C46.abvs</string>
-		<string>U0C31_U0C47.abvs</string>
+		<string>U0C31_U0C42.psts</string>
 		<string>U0C31_U0C4A.abvs</string>
+		<string>U0C31_U0C47.abvs</string>
 		<string>U0C31_U0C4B.abvs</string>
-		<string>U0C31_U0C4C.abvs</string>
 		<string>U0C31_U0C4D.blwf</string>
+		<string>U0C31_U0C4C.abvs</string>
 		<string>U0C31_U0C4D.haln</string>
 		<string>U0C32_U0C3E.abvs</string>
 		<string>U0C32_U0C3F.abvs</string>
 		<string>U0C32_U0C40.abvs</string>
 		<string>U0C32_U0C41.psts</string>
 		<string>U0C32_U0C42.psts</string>
+		<string>U0C32_U0C4A.abvs</string>
+		<string>U0C32_U0C4D.blwf</string>
 		<string>U0C32_U0C46.abvs</string>
 		<string>U0C32_U0C47.abvs</string>
-		<string>U0C32_U0C4A.abvs</string>
-		<string>U0C32_U0C4B.abvs</string>
 		<string>U0C32_U0C4C.abvs</string>
-		<string>U0C32_U0C4D.blwf</string>
+		<string>U0C32_U0C4B.abvs</string>
 		<string>U0C32_U0C4D.haln</string>
 		<string>U0C33_U0C3E.abvs</string>
 		<string>U0C33_U0C3F.abvs</string>
 		<string>U0C33_U0C40.abvs</string>
 		<string>U0C33_U0C41.psts</string>
-		<string>U0C33_U0C42.psts</string>
 		<string>U0C33_U0C46.abvs</string>
-		<string>U0C33_U0C47.abvs</string>
+		<string>U0C33_U0C42.psts</string>
 		<string>U0C33_U0C4A.abvs</string>
-		<string>U0C33_U0C4B.abvs</string>
-		<string>U0C33_U0C4C.abvs</string>
+		<string>U0C33_U0C47.abvs</string>
 		<string>U0C33_U0C4D.blwf</string>
+		<string>U0C33_U0C4C.abvs</string>
+		<string>U0C33_U0C4B.abvs</string>
 		<string>U0C33_U0C4D.haln</string>
-		<string>U0C35_U0C3E.abvs</string>
 		<string>U0C35_U0C3F.abvs</string>
 		<string>U0C35_U0C40.abvs</string>
+		<string>U0C35_U0C3E.abvs</string>
 		<string>U0C35_U0C41.psts</string>
-		<string>U0C35_U0C42.psts</string>
 		<string>U0C35_U0C46.abvs</string>
+		<string>U0C35_U0C42.psts</string>
 		<string>U0C35_U0C47.abvs</string>
 		<string>U0C35_U0C4A.abvs</string>
-		<string>U0C35_U0C4B.abvs</string>
-		<string>U0C35_U0C4C.abvs</string>
 		<string>U0C35_U0C4D.blwf</string>
 		<string>U0C35_U0C4D.haln</string>
+		<string>U0C35_U0C4B.abvs</string>
+		<string>U0C35_U0C4C.abvs</string>
 		<string>U0C36_U0C3E.abvs</string>
 		<string>U0C36_U0C3F.abvs</string>
 		<string>U0C36_U0C40.abvs</string>
-		<string>U0C36_U0C40.abvs_U0C30_U0C4D.bl</string>
 		<string>U0C36_U0C41.psts</string>
 		<string>U0C36_U0C42.psts</string>
+		<string>U0C36_U0C40.abvs_U0C30_U0C4D.bl</string>
 		<string>U0C36_U0C46.abvs</string>
 		<string>U0C36_U0C47.abvs</string>
 		<string>U0C36_U0C4A.abvs</string>
 		<string>U0C36_U0C4B.abvs</string>
-		<string>U0C36_U0C4C.abvs</string>
 		<string>U0C36_U0C4D.blwf</string>
-		<string>U0C36_U0C4D.haln</string>
+		<string>U0C36_U0C4C.abvs</string>
+		<string>U0C36_U0C4D_U0C56</string>
 		<string>U0C37_U0C1C_U0C4D.akhn</string>
-		<string>U0C37_U0C1F_U0C30_U0C40.akhn</string>
+		<string>U0C36_U0C4D.haln</string>
 		<string>U0C37_U0C3E.abvs</string>
+		<string>U0C37_U0C1F_U0C4D_U0C30_U0C4D</string>
 		<string>U0C37_U0C3F.abvs</string>
-		<string>U0C37_U0C3F.abvs_U0C1F_U0C4D.bl</string>
-		<string>U0C37_U0C40.abvs</string>
 		<string>U0C37_U0C41.psts</string>
+		<string>U0C37_U0C40.abvs</string>
 		<string>U0C37_U0C42.psts</string>
+		<string>U0C37_U0C1F_U0C30_U0C40.akhn</string>
+		<string>U0C37_U0C3F.abvs_U0C1F_U0C4D.bl</string>
 		<string>U0C37_U0C46.abvs</string>
-		<string>U0C37_U0C47.abvs</string>
 		<string>U0C37_U0C4A.abvs</string>
+		<string>U0C37_U0C47.abvs</string>
 		<string>U0C37_U0C4B.abvs</string>
 		<string>U0C37_U0C4C.abvs</string>
 		<string>U0C37_U0C4D.blwf</string>
 		<string>U0C37_U0C4D.haln</string>
+		<string>U0C37_U0C4D_U0C23_U0C4D</string>
 		<string>U0C38_U0C3E.abvs</string>
 		<string>U0C38_U0C3F.abvs</string>
+		<string>U0C37_U0C4D_U0C1F_U0C4D</string>
+		<string>U0C38_U0C24_U0C30_U0C40</string>
 		<string>U0C38_U0C3F.abvs_U0C24_U0C4D.bl</string>
-		<string>U0C38_U0C40.abvs</string>
+		<string>U0C38_U0C24_U0C4D_U0C30_U0C4D</string>
 		<string>U0C38_U0C41.psts</string>
+		<string>U0C38_U0C40.abvs</string>
 		<string>U0C38_U0C42.psts</string>
 		<string>U0C38_U0C46.abvs</string>
-		<string>U0C38_U0C47.abvs</string>
 		<string>U0C38_U0C4A.abvs</string>
-		<string>U0C38_U0C4B.abvs</string>
-		<string>U0C38_U0C4C.abvs</string>
 		<string>U0C38_U0C4D.blwf</string>
+		<string>U0C38_U0C4C.abvs</string>
+		<string>U0C38_U0C47.abvs</string>
+		<string>U0C38_U0C4B.abvs</string>
+		<string>U0C38_U0C4D_U0C28_U0C4D</string>
 		<string>U0C38_U0C4D.haln</string>
 		<string>U0C39_U0C3E.abvs</string>
+		<string>U0C39_U0C41.psts</string>
 		<string>U0C39_U0C3F.abvs</string>
 		<string>U0C39_U0C40.abvs</string>
-		<string>U0C39_U0C41.psts</string>
-		<string>U0C39_U0C42.psts</string>
 		<string>U0C39_U0C46.abvs</string>
+		<string>U0C39_U0C42.psts</string>
 		<string>U0C39_U0C47.abvs</string>
 		<string>U0C39_U0C4A.abvs</string>
-		<string>U0C39_U0C4B.abvs</string>
-		<string>U0C39_U0C4C.abvs</string>
+		<string>U0C43_U0C</string>
 		<string>U0C39_U0C4D.blwf</string>
+		<string>U0C44_U0C</string>
+		<string>U0C39_U0C4B.abvs</string>
+		<string>U0C56_U0C</string>
 		<string>U0C39_U0C4D.haln</string>
+		<string>U0C39_U0C4C.abvs</string>
 		<string>U0C56_U0C24_U0C4D.blwf.blws</string>
-		<string>.notdef</string>
+		<string>U0C58_0C3E</string>
+		<string>U0C59_U0C3E</string>
+		<string>uni0000</string>
+		<string>uni0C02</string>
+		<string>uni0C01</string>
+		<string>uni0C03</string>
+		<string>uni0C06</string>
+		<string>uni0C05</string>
+		<string>uni0C07</string>
+		<string>uni0C08</string>
+		<string>uni0C0B</string>
+		<string>uni0C09</string>
+		<string>uni0C0C</string>
+		<string>uni0C0E</string>
+		<string>uni0C0F</string>
+		<string>uni0C0A</string>
+		<string>uni0C10</string>
+		<string>uni0C12</string>
+		<string>uni0C13</string>
+		<string>uni0C15</string>
+		<string>uni0C14</string>
+		<string>uni0C16</string>
+		<string>uni0C17</string>
+		<string>uni0C1A</string>
+		<string>uni0C19</string>
+		<string>uni0C18</string>
+		<string>uni0C1B</string>
+		<string>uni0C1C</string>
+		<string>uni0C1F</string>
+		<string>uni0C1D</string>
+		<string>uni0C1E</string>
+		<string>uni0C20</string>
+		<string>uni0C21</string>
+		<string>uni0C23</string>
+		<string>uni0C22</string>
+		<string>uni0C24</string>
+		<string>uni0C28</string>
+		<string>uni0C26</string>
+		<string>uni0C25</string>
+		<string>uni0C27</string>
+		<string>uni0C2A</string>
+		<string>uni0C2C</string>
+		<string>uni0C2B</string>
+		<string>uni0C2D</string>
+		<string>uni0C2E</string>
+		<string>uni0C32</string>
+		<string>uni0C2F</string>
+		<string>uni0C30</string>
+		<string>uni0C31</string>
+		<string>uni0C33</string>
+		<string>uni0C35</string>
+		<string>uni0C36</string>
+		<string>uni0C38</string>
+		<string>uni0C37</string>
+		<string>uni0C3E</string>
+		<string>uni0C3D</string>
+		<string>uni0C3F</string>
+		<string>uni0C40</string>
+		<string>uni0C41</string>
+		<string>uni0C43</string>
+		<string>uni0C42</string>
+		<string>uni0C46</string>
+		<string>uni0C39</string>
+		<string>uni0C44</string>
+		<string>uni0C47</string>
+		<string>uni0C4A</string>
+		<string>uni0C48</string>
+		<string>uni0C4B</string>
+		<string>uni0C55</string>
+		<string>uni0C4D</string>
+		<string>uni0C4C</string>
+		<string>uni0C56</string>
+		<string>uni0C66</string>
+		<string>uni0C63</string>
+		<string>uni0C58</string>
+		<string>uni0C62</string>
+		<string>uni0C67</string>
+		<string>uni0C61</string>
+		<string>uni0C68</string>
+		<string>uni0C60</string>
+		<string>uni0C59</string>
+		<string>uni0C69</string>
+		<string>uni0C6B</string>
+		<string>uni0C6D</string>
+		<string>uni0C6A</string>
+		<string>uni0C6C</string>
+		<string>uni0C6E</string>
+		<string>uni0C6F</string>
+		<string>uni0C79</string>
+		<string>uni0C7A</string>
+		<string>uni0C78</string>
+		<string>uni0C7C</string>
+		<string>uni0C7B</string>
+		<string>uni0C7E</string>
+		<string>uni0C7D</string>
+		<string>uni0C7F</string>
 	</array>
 </dict>
 </plist>
